@@ -1,0 +1,49 @@
+{
+    "songs": [
+        {
+            "title": "See The Fire In Your Eyes",
+            "audio": "../src/assets/rdr ost/Red Dead Redemption 2 Soundtrack - See The Fire In Your Eyes.mp3",
+            "time": "3:03"
+        },
+        {
+            "title": "Cruel World",
+            "audio": "../src/assets/rdr ost/Willie Nelson - Cruel World (Red Dead Redemption 2 Soundtrack).mp3",
+            "time": "4:26"
+        },
+        {
+            "title": "That's The Way It Is",
+            "audio": "../src/assets/rdr ost/Red Dead Redemption 2 OST- That's The Way It Is.mp3",
+            "time": "3:11"
+        },
+        {
+            "title": "True Love",
+            "audio": "../src/assets/rdr ost/Red Dead Redemption 2 Official Soundtrack - True Love (Beau & Penelope).mp3",
+            "time": "2:57"
+        },
+        {
+            "title": "Lonesome Town",
+            "audio": "../src/assets/rdr ost/Red Dead Redemption 2 Official Soundtrack - Lonesome Town.mp3",
+            "time": "2:57"
+        },
+        {
+            "title": "House Building Theme",
+            "audio": "../src/assets/rdr ost/Red Dead Redemption 2 Official Soundtrack - House Building Theme _ HD.mp3",
+            "time": "3:40"
+        },
+        {
+            "title": "Outlaws From The West",
+            "audio": "../src/assets/rdr ost/Red Dead Redemption 2 - Outlaws From The West.mp3",
+            "time": "4:15"
+        },
+        {
+            "title": "Dead Man's Gun",
+            "audio": "../src/assets/rdr ost/Dead Man's Gun - RDR.mp3",
+            "time": "4:15"
+        },
+        {
+            "title": "Red (Come and Lay by my Side)",
+            "audio": "../src/assets/rdr ost/Daniel Lanois - Red (Come and Lay by my Side)(Red Dead Redemption 2 Soundtrack).mp3",
+            "time": "2:20"
+        }
+    ]
+}
