@@ -1,0 +1,50 @@
+{
+    "MRE": {
+        "name": "MRE",
+        "price": "$80",
+        "image": "../components/photos/MRE.jpg",
+        "about": "Military grade. High in calories and lightweight."
+    },
+    "beans":  {
+        "name": "Can of Beans",
+        "price": "$50",
+        "image": "../components/photos/beans.jpg",
+        "about": "The classic prepper go to."
+    },
+    "twinkies":  {
+        "name": "Twinkies™",
+        "price": "$10",
+        "image": "../components/photos/twinkies.jpg",
+        "about": "The best, sweet snack to keep you motivated."
+    },
+   "pb": {
+        "name": "Peanut Butter",
+        "price": "$65",
+        "image": "../components/photos/pb.jpg",
+        "about": "Jelly not included."
+    },
+    "meat": {
+        "name": "Mutant Meat",
+        "price": "$14",
+        "image": "../components/photos/meat.jpg",
+        "about": "WARNING: Eat at your own risk!"
+    },
+    "cola": {
+        "name": "Nuka Cola",
+        "price": "$17",
+        "image": "../components/photos/cola.jpg",
+        "about": "War... war never changes..."
+    },
+    "water": {
+        "name": "Purified Water",
+        "price": "$8",
+        "image": "../components/photos/water.jpg",
+        "about": "Emergency water that's been sitting in a metal can for decades. The older the better!"
+    },
+    "ramen": {
+        "name": "Instant Noodles",
+        "price": "$10",
+        "image": "../components/photos/ramen.jpg",
+        "about": "College students around the world have reportedly been using this to survive for years."
+    }
+}
