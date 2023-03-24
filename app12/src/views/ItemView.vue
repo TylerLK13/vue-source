@@ -1,7 +1,10 @@
 <script setup>
     import { watch, reactive } from 'vue'
+    import { useRouter } from 'vue-router';
     import Heading from '../components/Heading.vue'
     import json from '../components/foodList.json'
+
+    const router = useRouter();
 
     const props = defineProps(['main'])
     const searchedItem = reactive({
@@ -17,7 +20,6 @@
 
       //search for item\\
       if(x != ''){
-
         if(x == json.MRE.name){
           console.log('item found')
 
@@ -26,8 +28,7 @@
           searchedItem.about = json.MRE.about
           searchedItem.price = json.MRE.price
         }
-
-        if(x == json.beans.name){
+        else if(x == json.beans.name){
           console.log('item found')
 
           searchedItem.name = json.beans.name
@@ -35,8 +36,7 @@
           searchedItem.about = json.beans.about
           searchedItem.price = json.beans.price
         }
-
-        if(x == json.twinkies.name){
+        else if(x == json.twinkies.name){
           console.log('item found')
 
           searchedItem.name = json.twinkies.name
@@ -44,8 +44,7 @@
           searchedItem.about = json.twinkies.about
           searchedItem.price = json.twinkies.price
         }
-
-        if(x == json.pb.name){
+        else if(x == json.pb.name){
           console.log('item found')
 
           searchedItem.name = json.pb.name
@@ -53,8 +52,7 @@
           searchedItem.about = json.pb.about
           searchedItem.price = json.pb.price
         }
-
-        if(x == json.meat.name){
+        else if(x == json.meat.name){
           console.log('item found')
 
           searchedItem.name = json.meat.name
@@ -62,8 +60,7 @@
           searchedItem.about = json.meat.about
           searchedItem.price = json.meat.price
         }
-
-        if(x == json.ramen.name){
+        else if(x == json.ramen.name){
           console.log('item found')
 
           searchedItem.name = json.ramen.name
@@ -71,8 +68,7 @@
           searchedItem.about = json.ramen.about
           searchedItem.price = json.ramen.price
         }
-
-        if(x == json.cola.name){
+        else if(x == json.cola.name){
           console.log('item found')
 
           searchedItem.name = json.cola.name
@@ -80,8 +76,7 @@
           searchedItem.about = json.cola.about
           searchedItem.price = json.cola.price
         }
-
-        if(x == json.water.name){
+        else if(x == json.water.name){
           console.log('item found')
 
           searchedItem.name = json.water.name
@@ -89,14 +84,15 @@
           searchedItem.about = json.water.about
           searchedItem.price = json.water.price
         }
-
         else{
           console.log('item not found')
+          router.push('/invalid')
         }
 
       }
       else{
         console.log('item not found')
+        router.push('/invalid')
       }
 
     }

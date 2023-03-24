@@ -16,5 +16,7 @@
 <style>
 #invalid{
     background-color: rgb(249, 54, 54);
+    padding: 20px;
+    margin: 8px;
 }
 </style>

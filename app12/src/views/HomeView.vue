@@ -6,7 +6,7 @@
 
 <template>
   <body>
-    <Heading label="Home"/>
+    <h3>Home</h3>
     <img src="../components/photos/wallpaper.jpg">
   </body>
 </template>

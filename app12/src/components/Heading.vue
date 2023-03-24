@@ -1,6 +1,8 @@
 <script setup>
-    import { RouterLink } from 'vue-router'
+    import { useRouter } from 'vue-router'
     import {reactive} from 'vue'
+
+    const router = useRouter();
 
     const props = defineProps(['label'])
 
@@ -10,6 +12,8 @@
 
     function switchEvent(){
         console.log('user.search (ListView): ', user.search);
+
+        router.push('/list/item');
     }
 
 </script>
@@ -18,15 +22,9 @@
     <body>
         <h3>{{ props.label }}</h3>
         <input type="text" placeholder="Search" :value="user.search" v-on:input="event => user.search=event.target.value">
-        <router-link to="/list/item" class="link">
-            <button @click="switchEvent(), $emit('searching', user.search)">
-                Search
-            </button>
-        </router-link>
+        <input type="button" value="Search" @click="switchEvent(), $emit('searching', user.search)">
         <small>EDIT NOTE: need to push first then input in</small>
-        <!--input type="text" placeholder="Search" :value="user.search" v-on:input="event => user.search=event.target.value">
-        <input type="button" value="Search" @click="switchEvent(), $emit('searching', user.search)"-->
-    </body>
+</body>
 </template>
 
 <style>

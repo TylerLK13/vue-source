@@ -20,8 +20,6 @@ function switchEvent(){
     <nav>
         <router-link to="/" class="link">Home</router-link>
         <router-link to="/list" class="link">Item List</router-link>
-        <router-link to="/invalid" class="link">TEST_Invalid</router-link>
-        <router-link to="/list/item" class="link">TEST_Item</router-link>
 
         <!--input type="text" placeholder="Search" :value="user.search" v-on:input="event => user.search=event.target.value">
         <router-link to="/list/item" class="link">
